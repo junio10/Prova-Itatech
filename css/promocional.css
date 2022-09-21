@@ -1,0 +1,9 @@
+.image-promocional{
+    background-image: url("/imagens/imagempromocional.jpg");
+    margin: 0;
+    background-position: center;
+    background-size: AUTO;
+    background-attachment: fixed;
+    height: 352px;
+    gap: 16PX;
+}
