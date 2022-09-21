@@ -1,0 +1,44 @@
+.formulario{
+    height: 381px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EAF2FD;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+
+.linksForm > p{
+     padding-bottom: 30px;
+}
+.linksForm > p > a{
+    text-decoration: none;
+    color: #464646;
+}
+.lblformulario{
+    border: none;
+    height: 56px;
+    margin-bottom: 10px;
+    width: 360px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.lblformularioDescricao{
+    border: none;
+    height: 82px;
+    width: 360px;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.btnEnviar{
+    background-color: #2A7AE4;
+    color: #ffffff;
+    height: 51px;
+    width: 152px;
+    border: none;
+}
+.rodape{
+    text-align: center;
+    height: 102px;
+    padding-top: 50px;
+}

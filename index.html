@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">-->
    <link rel="stylesheet" href="/css/promocional.css">
+   <link rel="stylesheet" href="/css/cabecalho.css">
+   <link rel="stylesheet" href="/css/formulario.css">
     <title>ItaTech</title>
 </head>
 <body>
-      <header>
-        <div id="logo">
-            <img src="/imagens/itatechlogo.png" alt="39" width="151">
-        </div>
+      <div class="cabecalho">
+        <img src="/imagens/Itatech.png" alt="39" width="151">
         <input type="search" name="buscar" id="buscar" placeholder="o que deseja buscar ?">
+     
+        
+        <button class="btnLogin">Login</button>
 
-        <input type="button" value="" id="btnLogin">
-
-      </header>
+      </div>
      
 
       <div class="image-promocional">
         <h1>Fervereiro promocional</h1>
         <p>Produtos selecionados com 33% de desconto</p>
-        <button class="botaoVerConsoles">
+        <button class="btnVerConsoles">
             Ver consoles
         </button>
       </div>
@@ -60,8 +61,8 @@
       </div>
        
       <div class="formulario">
-
-        <img src="/imagens/itatechlogo.png" alt="39" width="150">
+        
+        <div class="imageLogo"><img src="/imagens/Itatech.png" alt="39" width="150"></div>
         
         <div class="linksForm">
             <p><a href="#">Quem somos</a></p>
@@ -72,17 +73,17 @@
             <p><a href="#">Anuncie aqui</a></p>
         </div>
         <form action="" method="post">
-            <div class="formulario">
+            <div class="form">
                 <h4>Fale conosco</h4>
-                <input class= "lblformulario" type="text" placeholder="André Lisboa"/>
-                <input class= "lblformularioDescricao" type="text" placeholder="Escrever sua mensagem"/>
+                <input class= "lblformulario" type="text" placeholder="nome"/><br/>
+                <input class= "lblformularioDescricao" type="text" placeholder="Escrever sua mensagem"/><br/>
                 <button class="btnEnviar">Enviar Mensagem</button>
             </div>
         </form>
 
       </div>
     
-    <footer>
+    <footer class="rodape">
         <p>Desenvolvido por Moisés Santos</p>
     </footer>
     

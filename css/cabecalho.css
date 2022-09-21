@@ -1,5 +1,33 @@
 *{
     box-sizing: border-box;
     font-family: Raleway;
+    margin: 0;
+    padding: 0;
  
+}
+
+.cabecalho{
+    height: 115px;
+    width: 80%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+#buscar{
+    margin-left: 15px;
+    width: 339px;
+    height: 40px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+}
+
+.btnLogin{
+   height: 51px;
+   width: 182px;
+   margin-left: 300PX;
+   border: solid 1px #2A7AE4;
+   background-color: transparent;
+   color: #2A7AE4;
 }

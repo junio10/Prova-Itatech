@@ -1,9 +1,26 @@
 .image-promocional{
-    background-image: url("/imagens/imagempromocional.jpg");
+    background-image: url("/imagens/Hero\ \(1\).png");
     margin: 0;
     background-position: center;
     background-size: AUTO;
-    background-attachment: fixed;
     height: 352px;
     gap: 16PX;
+    
+}
+.image-promocional > P {
+    color: #ffffff;
+}
+
+.image-promocional > H1{
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.btnVerConsoles{
+    width: 130px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
 }
