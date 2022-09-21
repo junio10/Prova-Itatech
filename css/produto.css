@@ -44,3 +44,17 @@
         margin-left: 10px;
     }
 }
+
+@media only screen and (max-width:400px){
+    .produto{
+        max-width: 94px;
+        margin-left: 25px;
+    }
+    .listProdutos{
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .produtoTemas > a{
+        margin-right: 10px;
+    }
+}
