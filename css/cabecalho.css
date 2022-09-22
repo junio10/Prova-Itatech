@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;600;700&display=swap');
+
 *{
     box-sizing: border-box;
-    font-family: Raleway;
     margin: 0;
     padding: 0;
  
@@ -10,7 +11,7 @@
     height: 115px;
     width: 80%;
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-left: 50px;
 }
@@ -30,19 +31,56 @@
    border: solid 1px #2A7AE4;
    background-color: transparent;
    color: #2A7AE4;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 16px;
+      
 }
 .logoBusca{
     display: flex;
     align-items: center;
 }
+.logoBusca > a{
+    position: absolute;
+    left: 520px;
+}
 
 @media only screen and (max-width:768px){
     .btnLogin{
         margin-left: 100px;
-        max-width: 100%;
+        min-width: 166px;
     }
     #buscar{
-        width: 210px;
+        width: 230px;
+    }
+    .logoBusca > a{
+        position: absolute;
+        left: 372px;
     }
     
+}
+
+@media only screen and (max-width:400px){
+    #buscar{
+        display: none;
+    }
+    .cabecalho{
+        display: inline-block;
+    }
+    .btnLogin{
+        margin-left: 150px;
+        width: 120px;
+    }
+    .logoBusca > a{
+        top: 50px;
+        left: 350px;
+    }
+    .logoBusca > img{
+        display: absolute;
+        padding-top: 50px;
+        margin-left: 0px;
+    }
+
 }

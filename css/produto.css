@@ -1,3 +1,5 @@
+
+
 .produtoTemas{
     display: flex;
     justify-content: space-between;
@@ -23,12 +25,37 @@
     max-height: 100%;
     width: 176px;
     height: 174;
-
 } 
 .produto > p > a{
     text-decoration: none;
     color: #2A7AE4;
 }
+.nomeProduto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.styleLetra{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.nomeTema{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.produtos{
+    margin-bottom: 32px;
+}
+.produto > p{
+   margin-bottom: 5px;
+}
+
 
 @media only screen and (max-width:768px){
     .produto{
