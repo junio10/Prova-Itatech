@@ -6,13 +6,20 @@
     margin-top: 50px;
     align-items: flex-end;
 }
-.produtoTemas > h1{
+.produtoTemas > H1{
     margin-left: 50px;
 }
-.produtoTemas > a{
-    margin-right: 50px;
+.maisProduto{
+    display: flex;
+    align-items: center;
+}
+.btnVer{
     text-decoration: none;
     color: #2A7AE4;
+    margin-right: 10px;
+}
+.btnSeta{
+    margin-right: 50px;
 }
 .listProdutos{
     display: flex;
@@ -38,12 +45,14 @@
     line-height: 16px;
 }
 .styleLetra{
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
 }
 .nomeTema{
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -70,6 +79,9 @@
     .produtoTemas > h1{
         margin-left: 10px;
     }
+    .btnSeta{
+        margin-right: 20px;
+    }
 }
 
 @media only screen and (max-width:400px){
@@ -87,5 +99,8 @@
     }
     .produtoTemas > a{
         margin-right: 10px;
+    }
+    .btnSeta{
+        margin-right: 20px;
     }
 }
