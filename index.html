@@ -14,14 +14,13 @@
 <body>
       <div class="cabecalho">
           <div class="logoBusca">
-            <img src="/imagens/Itatech.png" alt="39" width="151">
+            <img src="/imagens/Itatech.png" class="logoItatech">
             <input type="search" name="buscar" id="buscar" placeholder="   O que deseja buscar ?">
-            <a href=""><img src="/imagens/Vector.png" alt=""></a>
+            <a href="" class="btnLupa"><img src="/imagens/Vector.png" alt=""></a>
           </div>
          
-   
-    
-        <button class="btnLogin">Login</button>
+          <div class="btnDiv"><button class="btnLogin">Login</button></div>
+          <a href="" class="btnLupaCopia"><img src="/imagens/Vector.png" alt=""></a>
 
       </div>
      
@@ -43,37 +42,37 @@
           <!--lista de produtos-->
         <div class="listProdutos">
           <div class="produto">
-                <img src="/imagens/ProdutoStarWar1.png" alt="174" width="176">
+                <img src="/imagens/ProdutoStarWar1.png" alt="p">
                 <p class="nomeProduto">Produto xyz</p>
                 <p><strong>$ 60,00</strong></p>
                 <p class="styleLetra"><a href="#">Ver produto</a></p>
           </div>
           <div class="produto">
-            <img src="/imagens/Produto2StarWars.png" alt="174" width="176">
+            <img src="/imagens/Produto2StarWars.png" alt="174">
             <p class="nomeProduto">Produto xyz</p>
             <p><strong>$ 60,00</strong></p>
             <p class="styleLetra"><a href="#">Ver produto</a></p>
           </div>
           <div class="produto">
-            <img src="/imagens/Produto3StarWars.png" alt="174" width="176">
+            <img src="/imagens/Produto3StarWars.png" alt="174">
             <p class="nomeProduto">Produto xyz</p>
             <p><strong>$ 60,00</strong></p>
             <p class="styleLetra"><a href="#">Ver produto</a></p>
           </div>
           <div class="produto">
-            <img src="/imagens/Produto4StarWars.png" alt="174" width="176">
+            <img src="/imagens/Produto4StarWars.png" alt="174">
             <p class="nomeProduto">Produto xyz</p>
             <p><strong>$ 60,00</strong></p>
             <p class="styleLetra"><a href="#">Ver produto</a></p>
           </div>
           <div class="produto esconder">
-            <img src="/imagens/Produto5StarWars.png" alt="174" width="176">
+            <img src="/imagens/Produto5StarWars.png" alt="174">
             <p class="nomeProduto">Produto xyz</p>
             <p><strong>$ 60,00</strong></p>
             <p class="styleLetra"><a href="#">Ver produto</a></p>
           </div>
           <div class="produto esconder">
-            <img src="/imagens/Produto6StarWars.png" alt="174" width="176">
+            <img src="/imagens/Produto6StarWars.png" alt="174">
             <p class="nomeProduto">Produto xyz</p>
             <p><strong>$ 60,00</strong></p>
             <p class="styleLetra"><a href="#">Ver produto</a></p>
@@ -170,24 +169,24 @@
 
       </div>
        
-      <div class="formulario">
+      <div class="formulario">        
+            <div class="imageLogo"><img src="/imagens/Itatech.png" alt="39" width="150"></div>
         
-        <div class="imageLogo"><img src="/imagens/Itatech.png" alt="39" width="150"></div>
-        
-        <div class="linksForm">
-            <p><a href="#">Quem somos</a></p>
-            <p><a href="#">Politicas de privacidade</a></p>
-            <p><a href="#">Programa de fidelidade</a></p>
-            <p><a href="#">Novas tendencias</a></p>
-            <p><a href="#">Quero ser franquiado</a></p>
-            <p><a href="#">Anuncie aqui</a></p>
-        </div>
-        
+            <div class="linksForm">
+                <p><a href="#">Quem somos</a></p>
+                <p><a href="#">Politicas de privacidade</a></p>
+                <p><a href="#">Programa de fidelidade</a></p>
+                <p><a href="#">Novas tendencias</a></p>
+                <p><a href="#">Quero ser franquiado</a></p>
+                <p><a href="#">Anuncie aqui</a></p>
+            </div>
+       
         <div class="form">
               <form action="" method="post">
                 <h4>Fale conosco</h4>
-                <input class= "lblformulario" type="text" placeholder="nome"/><br/>
-                <input class= "lblformularioDescricao" type="text" placeholder="Escrever sua mensagem"/><br/>
+                <p id="lblnome">Nome</p>
+                <input class= "txtformulario" type="text" placeholder="Moises junio"/><br/>
+                <input class= "txtformularioDescricao" type="text" placeholder="Escrever sua mensagem"/><br/>
                 <button class="btnEnviar">Enviar Mensagem</button>
               </form>
         </div>

@@ -14,22 +14,28 @@
 .linksForm > p > a{
     text-decoration: none;
     color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
-.lblformulario{
+.txtformulario{
     border: none;
-    height: 56px;
+    height: 36px;
     margin-bottom: 10px;
     width: 360px;
     background: #ffffff;
     border-radius: 4px;
 }
-.lblformularioDescricao{
+.txtformularioDescricao{
     border: none;
     height: 82px;
     width: 360px;
     background: #ffffff;
     margin-bottom: 10px;
     border-radius: 4px;
+    color: #A2A2A2;
 }
 .btnEnviar{
     background-color: #2A7AE4;
@@ -47,7 +53,33 @@
     height: 102px;
     padding-top: 50px;
 }
+#lblnome{
+    background-color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 360px;
+    border-radius: 4px;
+    color: #A2A2A2;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+form > h4{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+@media only screen and (max-width:768px){
+    .formulario{
+        justify-content: center;
+    }
 
+}
 @media only screen and (max-width:400px){
     .formulario{
         display: flex;

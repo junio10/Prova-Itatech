@@ -15,6 +15,10 @@
     align-items: center;
     margin-left: 50px;
 }
+.logoItatech{
+    width: 151px;
+    height: 39px;
+}
 #buscar{
     margin-left: 15px;
     width: 339px;
@@ -46,6 +50,13 @@
     position: absolute;
     left: 520px;
 }
+.btnLupa{
+    position: absolute;
+    left: 520px;
+}
+.btnLupaCopia{
+    display: none;
+}
 
 @media only screen and (max-width:768px){
     .btnLogin{
@@ -67,20 +78,28 @@
         display: none;
     }
     .cabecalho{
-        display: inline-block;
+        flex-grow: 1;
+    }
+    .btnLupaCopia{
+        display: flex;
+        flex-grow: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }/*fazendo so um teste para tentar tirar a gambiarra*/
+     
+    .btnLupa{
+        /*left: 280px;*/
+        display: none;
+    }
+    .logoItatech{
+        width: 139px;
+    
     }
     .btnLogin{
-        margin-left: 150px;
-        width: 120px;
-    }
-    .logoBusca > a{
-        top: 50px;
-        left: 350px;
-    }
-    .logoBusca > img{
-        display: absolute;
-        padding-top: 50px;
+        width: 133px;
+     
         margin-left: 0px;
     }
+  
 
 }
