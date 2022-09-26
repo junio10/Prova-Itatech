@@ -44,3 +44,23 @@
     color: #FFFFFF;
     border: none;
 }
+@media only screen and (max-width:400px){
+    #txtusername{
+        width: 275px;
+        height: 41px;
+    }
+    #txtsenha{
+        width: 275px;
+        height: 41px;
+    }
+    .btnEntrar{
+        width: 109px;
+        height: 40px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+}

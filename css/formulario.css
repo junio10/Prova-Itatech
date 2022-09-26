@@ -1,5 +1,5 @@
 .formulario{
-    height: 381px;
+    height: 391px;
     display: flex;
     justify-content: space-around;
     background-color: #EAF2FD;
@@ -7,7 +7,14 @@
     padding-top: 80px;
     
 }
-
+.divImageLinks{
+    display: flex;
+    flex-direction: row;
+   
+}
+.linksForm{
+    margin-left: 150px;
+}
 .linksForm > p{
      padding-bottom: 30px;
 }
@@ -74,18 +81,54 @@ form > h4{
     line-height: 19px;
     color: #464646;
 }
+
+/*consertando a reponsividade do formulario*/
+@media only screen and (max-width:864px){
+    .divImageLinks{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        
+    }
+    .form{
+        margin-right: 10px;
+    }
+    .linksForm > p{
+        padding-bottom: 30px;
+   }
+   .linksForm{
+    margin-left: 0px;
+}
+
+
+}
 @media only screen and (max-width:768px){
+    .form{
+        margin-right: 10px;
+    }
     .formulario{
-        justify-content: center;
+        height: 371px;
+        justify-content: space-around;
+    }
+    .divImageLinks{
+        align-items: center;
+    }
+    .linksForm{
+        margin-left: 0px;
+    }
+    .btnEnviar{
+        width: 164px;
+        height: 43px;
     }
 
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:360px){
     .formulario{
         display: flex;
         flex-direction: column;
         height: 700px;
         align-items: center;
+       
     }
     .linksForm{
         display: flex;
@@ -95,5 +138,21 @@ form > h4{
     .imageLogo{
         position: relative;
         padding-top: 10px;
+    }
+    .form{
+        margin-left: 10px;
+    }
+    #lblnome{
+        width: 328px;
+        height: 56px;
+    }
+    .txtformulario{
+        width: 328px;
+        height: 56px;
+    }
+    .txtformularioDescricao{
+        width: 328px;
+        height: 82px;
+
     }
 }

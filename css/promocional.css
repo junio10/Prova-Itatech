@@ -45,3 +45,34 @@
     margin-left: 50px;
     margin-top: 10px;
 }
+
+@media only screen and (max-width:360px){
+    .image-promocional{
+        height: 192px;
+    }
+    .image-promocional > P{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 15px;
+    }
+    .image-promocional > h1{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        padding-top: 60px;
+        margin-left: 15px;
+    }
+    .btnVerConsoles{
+        width: 119px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+
+
+}
