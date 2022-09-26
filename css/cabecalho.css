@@ -51,8 +51,8 @@
     left: 520px;
 }*/
 .btnLupa{
-    position: absolute;
-    left: 520px;
+    position: relative;
+    left: -30px;
 }
 .btnLupaCopia{
     display: none;
@@ -67,8 +67,8 @@
         width: 230px;
     }
     .btnLupa{
-        position: absolute;
-        left: 372px;
+        position: relative;
+        left: -30px;
     }
     
 }

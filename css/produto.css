@@ -29,10 +29,7 @@
 .produto{
     margin-right: 15px;
 } 
-.produto > img{
-    width: 176px;
-    height: 174px;
-}
+
 .produto > p > a{
     text-decoration: none;
     color: #2A7AE4;
@@ -70,14 +67,17 @@
     .produto{
         min-width: 144px;
     }
+    .produto > img{
+        width: 164px;
+    }
     .listProdutos{   
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .esconder{
         display: none;
     }
     .produtoTemas > h1{
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .btnSeta{
         margin-right: 20px;
