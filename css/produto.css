@@ -67,6 +67,9 @@
     .produto{
         min-width: 144px;
     }
+    .produto > a > img{
+        width: 164px;
+    }
     .produto > img{
         width: 164px;
     }
@@ -88,6 +91,9 @@
 @media only screen and (max-width:360px){
     .produto > img{
         width: 156px;     
+    }
+    .produto > a > img{
+        width: 156px;
     }
     .produto{
         margin-left: 7px; 

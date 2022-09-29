@@ -33,6 +33,7 @@
     width: 360px;
     background: #ffffff;
     border-radius: 4px;
+    box-shadow: 0px 2px 2px rgb(124, 129, 135);
 }
 .txtformularioDescricao{
     border: none;
@@ -42,6 +43,7 @@
     margin-bottom: 10px;
     border-radius: 4px;
     color: #A2A2A2;
+    box-shadow: 0px 2px 2px rgb(124, 129, 135);
 }
 .btnEnviar{
     background-color: #2A7AE4;

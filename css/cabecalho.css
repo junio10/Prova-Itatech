@@ -42,6 +42,9 @@
    line-height: 16px;
       
 }
+.btnLogin:hover{
+    background-color: #8cb7f0ee;
+}
 .logoBusca{
     display: flex;
     align-items: center;
@@ -73,8 +76,9 @@
 @media only screen and (max-width:768px){
     .btnLogin{
         margin-left: 100px;
-        min-width: 166px;
+        max-width: 166px;
     }
+    
     #buscar{
         width: 230px;
     }
@@ -111,7 +115,7 @@
         margin-left: 0px;
     }
     .btnLogin{
-        min-width: 133px !important;
+        max-width: 133px !important;
         margin-left: 0px;
     }
     .btnDiv{
