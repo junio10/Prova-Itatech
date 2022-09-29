@@ -104,6 +104,9 @@
     .produtoTemas > a{
         margin-right: 10px;
     }
+    .produtoTemas > h1{
+        margin-left: 10px;
+    }
     .btnSeta{
         margin-right: 20px;
     }

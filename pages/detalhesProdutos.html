@@ -82,28 +82,32 @@
 
       </div>
     
-      <div class="formulario">        
-        <div class="imageLogo"><img src="/imagens/Itatech.png" alt="39" width="150"></div>
-    
-    <div class="linksForm">
-            <p><a href="#">Quem somos</a></p>
-            <p><a href="#">Politicas de privacidade</a></p>
-            <p><a href="#">Programa de fidelidade</a></p>
-            <p><a href="#">Novas tendencias</a></p>
-            <p><a href="#">Quero ser franquiado</a></p>
-            <p><a href="#">Anuncie aqui</a></p>
+      <div class="formulario">
+        <div class="divImageLinks">
+          <div class="imageLogo"><img src="/imagens/Itatech.png" alt="39" width="150"></div>
+        
+          <div class="linksForm">
+              <p><a href="#">Quem somos</a></p>
+              <p><a href="#">Politicas de privacidade</a></p>
+              <p><a href="#">Programa de fidelidade</a></p>
+              <p><a href="#">Novas tendencias</a></p>
+              <p><a href="#">Quero ser franquiado</a></p>
+              <p><a href="#">Anuncie aqui</a></p>
+          </div>
+
         </div>
-   
+        
+        
         <div class="form">
-            <form action="" method="post">
+              <form action="" method="post">
                 <h4>Fale conosco</h4>
-                <p id="lblnome">Nome</p>
-                <input class= "txtformulario" type="text" placeholder="Moises junio"/><br/>
+                <label for="" id="lblnome">Nome<br></label>
+                <input class= "txtformulario" type="text" placeholder="Andre lisboa"/><br/>
                 <input class= "txtformularioDescricao" type="text" placeholder="Escrever sua mensagem"/><br/>
                 <button class="btnEnviar">Enviar Mensagem</button>
-            </form>
+              </form>
         </div>
-    </div>
+      </div>
 
         <footer class="rodape">
             <p>Desenvolvido por Moisés Santos</p>
@@ -111,4 +115,9 @@
 
  
 </body>
+<script>
+    document.getElementById("btnLogin").onclick = function () {
+        location.href = "/pages/login";
+    };
+</script>
 </html>

@@ -46,6 +46,18 @@
     display: flex;
     align-items: center;
 }
+.logoBuscaLogin{
+    display: flex;
+    align-items: center;
+   
+}
+.cabecalhoPageLogin{
+    height: 115px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
 /*.logoBusca > a{
     position: absolute;
     left: 520px;
@@ -73,7 +85,7 @@
     
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:360px){
     #buscar{
         display: none;
     }
@@ -81,6 +93,7 @@
         flex-grow: 1;
         margin-left: 40px;
         align-items: center;
+        justify-content: baseline;
     }
     .btnLupaCopia{
         display: flex;
@@ -88,8 +101,7 @@
         margin-left: 20px;
         margin-right: 20px;
         
-    }/*fazendo so um teste para tentar tirar a gambiarra*/
-     
+    }
     .btnLupa{
         display: none;
     }
@@ -97,7 +109,6 @@
         width: 120px;
         flex-basis: 120px;
         margin-left: 0px;
-    
     }
     .btnLogin{
         min-width: 133px !important;
