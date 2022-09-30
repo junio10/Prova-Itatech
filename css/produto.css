@@ -41,12 +41,21 @@
     font-size: 16px;
     line-height: 16px;
 }
+.nomeProduto > a{
+    color: black !important;
+}
+.produto:hover > a >img{
+    filter: brightness(60%);
+}
 .styleLetra{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
+}
+.styleLetra:hover > a{
+    color: black;
 }
 .nomeTema{
     font-family: 'Raleway';
@@ -70,9 +79,6 @@
     .produto > a > img{
         width: 164px;
     }
-    .produto > img{
-        width: 164px;
-    }
     .listProdutos{   
         margin-left: 30px;
         flex-wrap: wrap;
@@ -89,9 +95,6 @@
 }
 
 @media only screen and (max-width:360px){
-    .produto > img{
-        width: 156px;     
-    }
     .produto > a > img{
         width: 156px;
     }
